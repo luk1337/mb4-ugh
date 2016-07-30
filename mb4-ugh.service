@@ -1,0 +1,9 @@
+[Unit]
+Description=Memes
+
+[Service]
+Type=simple
+ExecStart=/home/luk/bin/mb4-ugh
+
+[Install]
+WantedBy=default.target
