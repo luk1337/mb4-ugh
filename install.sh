@@ -1,8 +1,8 @@
 #!/bin/bash
 mkdir ~/bin
-cp mb4-ugh ~/bin/mb4-ugh
 
-cp mb4-ugh.service "${XDG_CONFIG_HOME:-$HOME/.config}/systemd/user/"
+cp mb4-ugh ~/bin/
+cp mb4-ugh.service ~/.config/systemd/user/
 
 systemctl --user daemon-reload
 systemctl --user restart mb4-ugh
